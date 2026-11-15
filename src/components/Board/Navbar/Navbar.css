@@ -2,9 +2,10 @@
   position: relative;
   display: flex;
   justify-content: space-around;
-  height: 48px;
-  background: #222;
+  height: 52px;
+  background: #1e293b;
   color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .Navbar__title {
@@ -16,9 +17,9 @@
   right: 0;
   height: 100%;
   margin: 0;
-  font-size: 1.14rem;
-  font-weight: 400;
-  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: 'Vazirmatn', sans-serif !important;
   pointer-events: none;
 }
 

@@ -22,6 +22,12 @@ export class ClearButton extends Component {
           className={
             increaseOutputButtons ? 'Output__button__lg' : 'Output__button__sm'
           }
+          style={{
+            color: '#d32f2f',
+            backgroundColor: 'rgba(211, 47, 47, 0.08)',
+            margin: '0 4px',
+            visibility: hidden ? 'hidden' : 'visible'
+          }}
           {...other}
         >
           <ClearIcon

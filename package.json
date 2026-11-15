@@ -147,9 +147,9 @@
   },
   "scripts": {
     "analyze": "source-map-explorer build/static/js/**/*.js",
-    "start": "craco start",
-    "build": "craco build  --verbose && sw-precache --config=sw-precache-config.js",
-    "build-cordova-debug": "craco build --verbose --cordova-debug",
+    "start": "node --max-old-space-size=8192 ./node_modules/@craco/craco/dist/bin/craco.js start",
+    "build": "node --max-old-space-size=8192 ./node_modules/@craco/craco/dist/bin/craco.js build && sw-precache --config=sw-precache-config.js",
+    "build-cordova-debug": "node --max-old-space-size=8192 ./node_modules/@craco/craco/dist/bin/craco.js build --cordova-debug",
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "lint": "eslint src --max-warnings=0",

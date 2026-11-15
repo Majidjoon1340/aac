@@ -70,28 +70,32 @@
 }
 
 .Symbol .Symbol__label {
-  width: 95%;
-  font-size: 0.85rem;
+  width: 96%;
+  font-size: 1.05rem;
   font-weight: 700;
   margin: 0 auto;
   position: relative;
   text-align: center;
-  display: table-cell;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  letter-spacing: 0.04em;
-  line-height: 1.2;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: 0;
+  line-height: 1.45;
   color: rgb(0, 0, 0);
+  padding: 2px 4px;
 }
 
 @media (min-width: 600px) {
   .Symbol .Symbol__label {
-    font-size: 1rem;
-    margin: 0 auto;
+    font-size: 1.15rem;
+    line-height: 1.5;
   }
 }
 
 [dir='rtl'] .Symbol__label {
   direction: rtl;
+  font-family: 'Vazirmatn', sans-serif !important;
 }

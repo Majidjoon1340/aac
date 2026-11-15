@@ -1,6 +1,10 @@
 const FONTS_FAMILIES_LIST = [
   //Default font
   {
+    fontName: 'Vazirmatn',
+    fontFamily: ['Vazirmatn', 'Tahoma', 'Segoe UI', 'sans-serif'].join(',')
+  },
+  {
     fontName: 'Montserrat',
     fontFamily: ['Montserrat', 'sans-serif'].join(',')
   },

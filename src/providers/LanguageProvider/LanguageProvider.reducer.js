@@ -9,7 +9,7 @@ import { getDefaultLang } from '../../i18n';
 
 function getDir(lang) {
   const locale = lang.slice(0, 2);
-  return locale === 'ar' || locale === 'he' ? 'rtl' : 'ltr';
+  return locale === 'ar' || locale === 'he' || locale === 'fa' || locale === 'ur' ? 'rtl' : 'ltr';
 }
 
 const initialState = {

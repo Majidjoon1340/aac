@@ -327,6 +327,7 @@ export class OutputContainer extends Component {
         onClearClick={this.handleClearClick}
         onCopyClick={this.handleCopyClick}
         onRemoveClick={this.handleRemoveClick}
+        onSpeakClick={() => this.play()}
         onClick={isLiveMode ? undefined : this.handleOutputClick}
         onKeyDown={this.handleOutputKeyDown}
         onSwitchLiveMode={this.handleSwitchLiveMode}

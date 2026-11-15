@@ -500,21 +500,46 @@ const tts = {
         }
       }
       if (platformVoices.length) {
-        const localVoice = this.getLocalVoiceByVoiceURI(voiceURI);
+        let localVoice = this.getLocalVoiceByVoiceURI(voiceURI);
+        if (!localVoice) {
+          const store = getStore();
+          const currentLang = store.getState()?.language?.lang || 'fa-IR';
+          const langPrefix = currentLang.substring(0, 2).toLowerCase();
+          localVoice =
+            platformVoices.find(
+              (v) => v.lang && v.lang.toLowerCase().startsWith(langPrefix)
+            ) || platformVoices[0];
+        }
+        const msg = new SpeechSynthesisUtterance(text);
+        msg.text = text;
         if (localVoice) {
-          const msg = new SpeechSynthesisUtterance(text);
-          msg.text = text;
           msg.voice = localVoice;
           msg.name = localVoice.name;
           msg.lang = localVoice.lang;
           msg.voiceURI = localVoice.voiceURI;
+        } else {
+          msg.lang = 'fa-IR';
+        }
+        msg.pitch = pitch;
+        msg.rate = rate;
+        msg.volume = volume;
+        msg.onend = onend;
+        if (IS_BROWSING_FROM_SAFARI || IS_BROWSING_FROM_APPLE_TOUCH)
+          synth.cancel();
+        synth.speak(msg);
+      } else {
+        try {
+          const msg = new SpeechSynthesisUtterance(text);
+          msg.text = text;
+          msg.lang = 'fa-IR';
           msg.pitch = pitch;
           msg.rate = rate;
           msg.volume = volume;
           msg.onend = onend;
-          if (IS_BROWSING_FROM_SAFARI || IS_BROWSING_FROM_APPLE_TOUCH)
-            synth.cancel();
           synth.speak(msg);
+        } catch (e) {
+          console.error('[TTS] Speech fallback failed:', e);
+          if (onend) onend({ error: true });
         }
       }
     }

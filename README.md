@@ -1,169 +1,102 @@
-[![DPG Badge](https://img.shields.io/badge/Verified-DPG-3333AB?logo=data:image/svg%2bxml;base64,PHN2ZyB3aWR0aD0iMzEiIGhlaWdodD0iMzMiIHZpZXdCb3g9IjAgMCAzMSAzMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0LjIwMDggMjEuMzY3OEwxMC4xNzM2IDE4LjAxMjRMMTEuNTIxOSAxNi40MDAzTDEzLjk5MjggMTguNDU5TDE5LjYyNjkgMTIuMjExMUwyMS4xOTA5IDEzLjYxNkwxNC4yMDA4IDIxLjM2NzhaTTI0LjYyNDEgOS4zNTEyN0wyNC44MDcxIDMuMDcyOTdMMTguODgxIDUuMTg2NjJMMTUuMzMxNCAtMi4zMzA4MmUtMDVMMTEuNzgyMSA1LjE4NjYyTDUuODU2MDEgMy4wNzI5N0w2LjAzOTA2IDkuMzUxMjdMMCAxMS4xMTc3TDMuODQ1MjEgMTYuMDg5NUwwIDIxLjA2MTJMNi4wMzkwNiAyMi44Mjc3TDUuODU2MDEgMjkuMTA2TDExLjc4MjEgMjYuOTkyM0wxNS4zMzE0IDMyLjE3OUwxOC44ODEgMjYuOTkyM0wyNC44MDcxIDI5LjEwNkwyNC42MjQxIDIyLjgyNzdMMzAuNjYzMSAyMS4wNjEyTDI2LjgxNzYgMTYuMDg5NUwzMC42NjMxIDExLjExNzdMMjQuNjI0MSA5LjM1MTI3WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==)](https://digitalpublicgoods.net/r/cboard)
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/cboard/localized.svg)](https://crowdin.com/project/cboard)
-[![Backers on Open Collective](https://opencollective.com/cboard/backers/badge.svg)](#backers)
-[![Sponsors on Open Collective](https://opencollective.com/cboard/sponsors/badge.svg)](#sponsors)
-[![cboard-org](https://circleci.com/gh/cboard-org/cboard.svg?style=shield)](https://app.circleci.com/pipelines/github/cboard-org/cboard)
+# سی‌بورد فارسی (Persian AAC Board) 🗣️🇮🇷
+### سامانه ارتباط کمکی و جایگزین برای افراد دارای فلج مغزی، سکته مغزی، اوتیسم و اختلالات گفتاری
+**یک پروژه کاملاً متن‌باز (Open Source) و عام‌المنفعه**
 
-# Cboard - AAC Communication Board for browsers
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![PWA Ready](https://img.shields.io/badge/PWA-Offline%20Ready-success.svg)](https://github.com/Majidjoon1340/aac)
+[![Font: Vazirmatn](https://img.shields.io/badge/Font-Vazirmatn-brightgreen.svg)](https://github.com/rastikerdar/vazirmatn)
 
-[Cboard](https://app.cboard.io) is an augmentative and alternative communication (AAC) web application, allowing users with speech and language impairments (such as autism or cerebral palsy) to communicate with symbols and text-to-speech.
+---
 
-![Cboard GIF demo](public/videos/demo.gif)
+## 📖 دربارهٔ پروژه
+**سی‌بورد فارسی (Cboard Persian)** بر پایه پروژه معتبر و جهانی Cboard (تحت حمایت یونیسف) بومی‌سازی و توسعه یافته است. هدف این پروژه، فراهم آوردن ابزاری **رایگان، در دسترس و استاندارد** برای تمام فارسی‌زبانانی است که به دلیل **سکته مغزی (Stroke / Aphasia)، فلج مغزی (Cerebral Palsy)، بیماری ALS، آسیب‌های مغزی یا اوتیسم غیرکلامی** توانایی تکلم یا تایپ کردن را از دست داده‌اند.
 
-The app uses the browser's Speech Synthesis API to generate speech when a symbol is clicked. There are thousands of symbols from the most popular AAC symbol libraries to choose from when creating a board. Cboard is available in more than 40 languages (support varies by platform - Android, iOS, Windows).
+این نرم‌افزار به کاربر امکان می‌دهد با لمس تصاویر و نمادها (یا با استفاده از وب‌کم و پلک‌زدن)، کلمات و جملات دلخواه خود را بسازد تا دستگاه آن را با صدای بلند و طبیعی به زبان فارسی بخواند.
 
-**We're using Discord to collaborate, join us at: https://discord.gg/TEH8uxh**
+---
 
-## How does it work?
+## ✨ ویژگی‌ها و ارتقاهای نسخهٔ اختصاصی فارسی
 
-This video shows Srna. She is one of the children who have received the Cboard Communicator thanks to UNICEF’s ["For every child, a voice"](https://www.unicef.org/innovation/stories/giving-every-child-voice-aac-technology) project.
+### ۱. اصلاح اساسی جهت متن و راست‌چین‌سازی (RTL Fix)
+* رفع باگ عدم پشتیبانی از زبان فارسی در هستهٔ Cboard و اعمال ساختار استاندارد راست به چپ (RTL).
+* تنظیم چیدمان نوار جمله‌ساز و گرید کارت‌ها متناسب با دستور زبان فارسی (نهاد + مفعول + فعل).
 
-<a href="https://youtu.be/wqLauXnyLhY"><img src="https://img.youtube.com/vi/wqLauXnyLhY/0.jpg" alt="Watch the Cboard video on YouTube" width="480" height="360"></a>
+### ۲. تایپوگرافی ارگونومیک با فونت «وزیرمتن»
+* جایگزینی فونت‌های پیش‌فرض با فونت بهینه‌سازی‌شده و خوانای **وزیرمتن (Vazirmatn)**.
+* افزایش ارتفاع خطوط (`line-height: 1.45`) برای جلوگیری از بریده‌شدن نقاط و سرکش‌ها.
+* پشتیبانی از برچسب‌های دوخطی بدون حذف و قیچی شدن متن نمادها.
 
-## Translations
+### ۳. تابلوی تخصصی «مراقبت‌های ویژه و بستری» (`icu_stroke_care`)
+یک تابلوی اختصاصی برای بیماران بستری در بخش‌های ICU و مراقبت‌های ویژه طراحی شده است که در ردیف اول صفحه اصلی قرار دارد:
+* **نیازهای اورژانسی و فوری:** کمک فوری، تنگی نفس، نیاز به ساکشن، تهوع، احضار پزشک، پرستار و همراه.
+* **نیازهای اساسی بدنی:** آب، آب با نی، سرویس بهداشتی و لگن، دارو و مسکن، خشکی دهان، احساس سرما یا گرما.
+* **جابجایی و پوزیشنینگ تخت (پیشگیری از زخم بستر):** تغییر وضعیت بدن، بالا آوردن سر تخت، صاف کردن تخت، تنظیم بالش و پتو.
+* **تابلوی فرعی تعیین محل دقیق درد (`icu_pain_details`):** سردرد، قفسه سینه، دل‌درد، کمردرد، گلودرد، دست، پا، دندان و تمام بدن.
 
-Cboard is available in more than 50 locales (language and region variants), but almost all of them were machine translated and have never been reviewed by a human speaker. There are no official translators on the team: for most languages, the first person to proofread them is a volunteer from the community or a special translator chosen for that language.
+### ۴. بومی‌سازی کامل فرهنگی سفره و زندگی ایرانی
+* 🍲 **غذاها:** جایگزینی غذاهای غربی با چلو/برنج، کباب، خورشت، مرغ، آش و سوپ، عدسی/خوراک لوبیا، نان سنتی، املت، پنیر و گردو، سالاد شیرازی، ماست.
+* 🫖 **نوشیدنی‌ها:** چای داغ، قوری چای تازه، دوغ، شربت سنتی، آبمیوه طبیعی، شیر گرم، دمنوش گیاهی (حذف کامل نوشیدنی‌های الکلی و نامناسب).
+* 🥜 **میان‌وعده و اسنک:** خرما، آجیل، پسته و گردو، میوه، بیسکویت، شیرینی/حلوا، بستنی سنتی.
+* 🤲 **فعالیت‌ها:** استراحت و خواب، تماشای تلویزیون، نماز و دعا، تماس تصویری با خانواده، رادیو و قرآن، رفتن به حیاط و هوای آزاد، تمرین راه رفتن با واکر و ویلچر.
 
-**You do not need to be a programmer!** Machine translation gets the words roughly right and the meaning often wrong — a speaker who knows the language and sees the app in context produces something no automatic translation can match. For a child using Cboard to communicate, that difference is the difference between a board that makes sense and one that does not.
+### ۵. بهینه‌سازی‌های ارگونومیک و دسترسی‌پذیری (UI/UX)
+* **کاشی‌های درشت‌تر (`UI Size: Large`):** کاهش خطا در لمس برای افراد با لرزش دست یا اسپاستیسیتی.
+* **دکمه اختصاصی و درشت پخش صدا (Speak Button):** دکمه سبز رنگ با آیکون بلندگو در نوار جمله‌ساز برای خواندن سریع جمله.
+* **تفکیک رنگی دکمه پاک‌کردن (Clear Button):** دکمه قرمز ملایم جهت جلوگیری از پاک شدن اتفاقی جملات.
+* **بازخورد لمسی (Haptic / Tactile Feedback):** انیمیشن فرورفتگی طبیعی هنگام لمس کارت‌ها.
+* **کنترل با حرکت چشم و پلک‌زدن (Eye Tracking):** امکان انتخاب نمادها با وب‌کم برای بیماران با فلج کامل اندام‌ها.
 
-Ongoing translation work is tracked in [issue #89](https://github.com/cboard-org/cboard/issues/89) — comment there to claim a language or to ask for one to be added.
+### ۶. کارکرد کاملاً آفلاین (PWA)
+* پس از اولین بازگشایی، برنامه تمام اطلاعات و نمادها را در حافظه محلی کش می‌کند و در بیمارستان‌ها و منازل **بدون نیاز به اینترنت** به صورت ۱۰۰٪ آفلاین کار می‌کند.
 
-### Contributing as a translator
+---
 
-Translation happens on [Crowdin](https://crowdin.com/project/cboard), our localization platform. No installation and no code required.
+## 🚀 راهنمای نصب و راه‌اندازی برای توسعه‌دهندگان
 
-1. Create a free [Crowdin account](https://crowdin.com/join).
-2. Open the [Cboard project](https://crowdin.com/project/cboard) and join it, selecting the language you want to work on. If your language is not listed, ask for it in [issue #89](https://github.com/cboard-org/cboard/issues/89).
-3. Say on [issue #89](https://github.com/cboard-org/cboard/issues/89) which language you are taking, so two people don't review the same strings, and ask there for **proofreader** rights on it. Do this before you start: only proofreaders can approve strings, and approved strings are the ones shipped to the app.
-4. **Translate** empty strings and **proofread** the existing machine-translated ones. Watch for context: many strings are symbol labels (single words that must read as a child would say them), others are settings and buttons. Crowdin shows the source string.
-5. **Approve** each string as you review it, so your pass through the language leaves nothing to redo later.
-6. Work in manageable batches — a partially reviewed language is already an improvement, and approved strings reach users on the next release.
+### پیش‌نیازها
+* **Node.js** نسخه ۱۸ یا بالاتر
+* **npm**
 
-A maintainer pulls approved translations into the codebase periodically, so there is nothing else you need to do to publish your work.
+### مراحل اجرا:
+```bash
+# ۱. دریافت ریپازیتوری
+git clone https://github.com/Majidjoon1340/aac.git
+cd aac
 
-### Translations for developers
+# ۲. نصب وابستگی‌ها
+npm install --legacy-peer-deps
 
-#### Adding a new language
+# ۳. اجرای محیط توسعه
+npm start
+```
+برنامه در آدرس `http://localhost:3000` باز خواهد شد.
 
-To add support to a new language, [follow this guide](https://github.com/cboard-org/cboard/wiki/How-to-Add-a-New-Language). The language must also exist in the Crowdin project. If it doesn't, ask a maintainer on [issue #89](https://github.com/cboard-org/cboard/issues/89) to add it.
+### ساخت خروجی پروداکشن (Build):
+```bash
+npm run build
+```
+فایل‌های آماده استقرار در پوشه `build/` قرار می‌گیرند.
 
-#### Pulling translations from Crowdin
+---
 
-In order to pull the latest translations from Crowdin into the codebase, you can run `npm run translations:pull`. This will update all language files such as `en.json` as well as the central `cboard.json` file. It needs a Crowdin personal access token in the `CROWDIN_PERSONAL_TOKEN` environment variable: `CROWDIN_PERSONAL_TOKEN={token} npm run translations:pull`. `npm run translations:push`, which uploads `cboard.json` to Crowdin, reads the same variable. After the script completes, changes to the translation files will need to be committed to the repo by the usual process.
+## 🤝 مشارکت و اهداف عام‌المنفعه
+این پروژه کاملاً غیرتجاری و عام‌المنفعه است. پزشکان، کاردرمانگران، گفتاردرمانگران، خانواده‌های بیماران و برنامه‌نویسان می‌توانند با پیشنهاد نمادهای جدید، گزارش باگ یا بهبود طراحی در این کار خیر مشارکت نمایند.
 
-## Getting Started
+همچنین کدهای فنی این مخزن جهت اضافه شدن دائمی زبان فارسی به مخزن بین‌المللی [cboard-org/cboard](https://github.com/cboard-org/cboard) به صورت Pull Request ارسال خواهد شد.
 
-Cboard is developed with the Node.js version pinned in `.nvmrc`. Clone the repo and install dependencies first — see [Setting Up a Local Copy](CONTRIBUTING.md#setting-up-a-local-copy).
+---
 
-### `npm start`
+<div dir="ltr">
 
-Runs the app in development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## English Summary
+**Persian AAC Board** is an open-source, non-profit Augmentative and Alternative Communication (AAC) web platform localized for Persian speakers suffering from stroke, cerebral palsy, ALS, and speech impairments.
 
-The page will reload if you make edits.<br>
-You will see the build errors and lint warnings in the console.
+### Key Enhancements:
+- Full RTL (Right-to-Left) architectural layout fix in Language Provider.
+- Integrated **Vazirmatn** Persian typography with high-contrast accessibility sizing.
+- Specialized **ICU & Acute Stroke Care Board** with urgent nursing, repositioning, and pain-mapping communication tiles.
+- Culturally adapted symbol sets for Persian diets, beverages, and daily activities.
+- Dedicated, accessible **Speak Button** in the sentence output bar.
+- Offline-first Progressive Web App (PWA) caching for hospital/home use without an internet connection.
 
-### `npm test`
-
-Runs the test watcher in an interactive mode.<br>
-By default, runs tests related to files changed since the last commit.
-
-[Read more about testing.](https://create-react-app.dev/docs/running-tests/)
-
-### `npm run test:e2e`
-
-Runs the end-to-end tests with Playwright. The tests run against the deployed QA site (`https://app.qa.cboard.io`, set as `baseURL` in `playwright.config.ts`), not your local dev server, so they do not exercise local changes. Run `npm run test:e2e:install` once beforehand to install the browsers.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-It also generates a service worker with [sw-precache](https://github.com/GoogleChromeLabs/sw-precache) so that Cboard loads from local cache on future visits.
-
-Cboard is ready to be deployed.
-
-### `npm run build-cordova-debug`
-
-Use this to produce non-minified build for use in debugging within Cordova. It uses `craco` & `craco.config` to customize webpack operation without ejecting react.
-
-See the [ccboard](https://github.com/cboard-org/ccboard) repo for packaging this Cboard application within Cordova.
-
-## Docker getting started
-
-### `make image`
-
-Creates a Docker image with Cboard built for production. The image is tagged as `cboard/cboard:latest`.
-
-### `make run`
-
-Runs the `cboard/cboard:latest` Docker image.
-
-## Secrets Management
-
-Some external services have APIs we need to access, and these require API keys. To prevent open disclosure of these keys in the public repository, while still tracking them with the code, we encrypt some secrets into a GPG file. These files are `env/local-private.gpg` and `env/prod-private.gpg`.
-
-In order to access the secrets, you must request the `ENCRYPTION_KEY` from @shaycojo and then run the decrypt script: `ENCRYPTION_KEY={key-goes-here} npm run decrypt:local` (or `prod`), which will create the file `.private/local.js` with the secrets in plain text. **The files in `.private` should never be committed to the repository.**
-
-If you need to add or change a secret, make the change to the `.private/local.js` file, and then run the encryption script: `ENCRYPTION_KEY={key-goes-here} npm run encrypt:local` (or `prod`).
-
-_Note: These keys/secrets are *not* required to run or develop Cboard._ They are used with scripts by some team members.
-
-## Thanks
-
-### Symbols sources
-
-<img src="https://mulberrysymbols.org/assets/examples/hello.svg" alt="Mulberry" width="40" height="40"> [Mulberry](https://mulberrysymbols.org/)
-
-<img src="https://static.arasaac.org/images/arasaac-logo.svg" alt="ARASAAC" width="40" height="40"> [ARASAAC](http://www.arasaac.org/)
-
-<img src="https://globalsymbols.com/assets/logo-with-text-5c57659e34824e7b2907a36895745f9e39e7f1c015ea77d6968eb75a52c8389f.svg" alt="Global Symbols" width="40" height="40"> [Global Symbols](https://globalsymbols.com/)
-
-### Translation
-
-<img src="https://support.crowdin.com/assets/logos/crowdin-symbol.png" alt="Crowdin" width="40" height="40">[ Crowdin](https://crowdin.com/) - for providing the localization management platform.
-
-### Testing platform
-
-<img src="https://avatars2.githubusercontent.com/u/1119453?s=200&v=4" alt="Browserstack" width="40" height="40">[ Browserstack](https://www.browserstack.com/) - for providing the automation infrastructure for testing.
-
-### Development
-
-[CSS-Tricks](https://css-tricks.com) - for providing feedback and support from the early stage.
-
-## Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/cboard-org/cboard/graphs/contributors"><img src="https://opencollective.com/cboard/contributors.svg?width=890&button=false" /></a>
-
-## Backers
-
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/cboard#backer)]
-
-<a href="https://opencollective.com/cboard#backers" target="_blank"><img src="https://opencollective.com/cboard/backers.svg?width=890"></a>
-
-## Sponsors
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/cboard#sponsor)]
-
-<a href="https://opencollective.com/cboard/sponsor/0/website" target="_blank"><img src="https://opencollective.com/cboard/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/cboard/sponsor/1/website" target="_blank"><img src="https://opencollective.com/cboard/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/cboard/sponsor/2/website" target="_blank"><img src="https://opencollective.com/cboard/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/cboard/sponsor/3/website" target="_blank"><img src="https://opencollective.com/cboard/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/cboard/sponsor/4/website" target="_blank"><img src="https://opencollective.com/cboard/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/cboard/sponsor/5/website" target="_blank"><img src="https://opencollective.com/cboard/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/cboard/sponsor/6/website" target="_blank"><img src="https://opencollective.com/cboard/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/cboard/sponsor/7/website" target="_blank"><img src="https://opencollective.com/cboard/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/cboard/sponsor/8/website" target="_blank"><img src="https://opencollective.com/cboard/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/cboard/sponsor/9/website" target="_blank"><img src="https://opencollective.com/cboard/sponsor/9/avatar.svg"></a>
-
-## :memo: Legal & licenses
-
-Copyright © 2017-2024, Assistive Technology LLC & Cboard contributors.
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License version 3 as published by the Free Software Foundation.
-
-- Code - [GPLv3](https://github.com/cboard-org/cboard/blob/master/LICENSE.txt)
-- Mulberry Symbols - [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-- ARASAAC Symbols - [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+</div>

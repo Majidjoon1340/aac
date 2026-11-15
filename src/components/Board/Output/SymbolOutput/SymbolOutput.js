@@ -9,6 +9,7 @@ import Switch from '@material-ui/core/Switch';
 import Symbol from '../../Symbol';
 import BackspaceButton from './BackspaceButton';
 import ClearButton from './ClearButton';
+import SpeakButton from './SpeakButton';
 import messages from '../../Board.messages';
 import PhraseShare from '../PhraseShare';
 import Scroll from './Scroll';
@@ -87,6 +88,7 @@ class SymbolOutput extends PureComponent {
       onRemoveClick,
       onSwitchLiveMode,
       onWriteSymbol,
+      onSpeakClick,
       symbols,
       navigationSettings,
       phrase,
@@ -170,6 +172,12 @@ class SymbolOutput extends PureComponent {
               increaseOutputButtons={increaseOutputButtons}
             />
           )}
+
+          <SpeakButton
+            onClick={onSpeakClick}
+            hidden={!symbols.length}
+            increaseOutputButtons={increaseOutputButtons}
+          />
 
           {!navigationSettings.removeOutputActive && (
             <BackspaceButton

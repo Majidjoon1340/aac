@@ -14,6 +14,7 @@ import {
 import { LOGIN_SUCCESS, LOGOUT } from '../Account/Login/Login.constants';
 import {
   DISPLAY_SIZE_STANDARD,
+  DISPLAY_SIZE_LARGE,
   LABEL_POSITION_BELOW
 } from '../Settings/Display/Display.constants';
 
@@ -36,11 +37,11 @@ const initialState = {
     isSymbolSearchTourEnabled: true
   },
   displaySettings: {
-    uiSize: DISPLAY_SIZE_STANDARD,
+    uiSize: DISPLAY_SIZE_LARGE,
     fontFamily: DEFAULT_FONT_FAMILY,
-    fontSize: DISPLAY_SIZE_STANDARD,
+    fontSize: DISPLAY_SIZE_LARGE,
     hideOutputActive: false,
-    increaseOutputButtons: false,
+    increaseOutputButtons: true,
     labelPosition: LABEL_POSITION_BELOW,
     darkThemeActive: false
   },

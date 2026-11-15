@@ -31,6 +31,14 @@
           "backgroundColor": "rgb(187, 222, 251)"
         },
         {
+          "label": "مراقبت ویژه و بستری",
+          "labelKey": "cboard.symbol.icuCare",
+          "image": "/symbols/mulberry/help_,_to.svg",
+          "loadBoard": "icu_stroke_care",
+          "id": "icu_stroke_care_nav_tile",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
           "labelKey": "cboard.symbol.time",
           "image": "/symbols/mulberry/clock.svg",
           "loadBoard": "BJRtpPnP6b",
@@ -290,205 +298,144 @@
       "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763465_9b1b336c1684_food.png",
       "tiles": [
         {
-          "labelKey": "cboard.symbol.imHungry",
+          "label": "من گرسنه‌ام",
+          "labelKey": "symbol.foodDescription.hungry",
           "image": "/symbols/mulberry/hungry.svg",
           "id": "HkqHz0cTX5tZ",
           "backgroundColor": "rgb(255, 241, 118)"
         },
         {
-          "labelKey": "cboard.symbol.iWant",
+          "label": "من می‌خواهم",
+          "labelKey": "symbol.communicationConversation.want",
           "image": "/symbols/mulberry/want_,_to.svg",
           "id": "r1oHfCqTm9Yb",
           "backgroundColor": "rgb(255, 241, 118)"
         },
         {
-          "labelKey": "cboard.symbol.and",
-          "image": "/symbols/arasaac/ampersand.png",
-          "id": "Bk3Sf0qpm5Fb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "cboard.symbol.iDislike",
+          "label": "دوست ندارم",
+          "labelKey": "symbol.descriptiveState.bad",
           "image": "/symbols/mulberry/bad.svg",
           "id": "B1TBz09TXcKZ",
           "backgroundColor": "rgb(255, 241, 118)"
         },
         {
-          "labelKey": "symbol.foodMealsAndSnacks.soup",
+          "label": "چلو / برنج",
+          "labelKey": "cboard.food.rice",
+          "image": "/symbols/mulberry/rice.svg",
+          "id": "ir_f_rice",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "کباب",
+          "labelKey": "cboard.food.kebab",
+          "image": "/symbols/mulberry/kebab.svg",
+          "id": "ir_f_kebab",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "خورشت / گوشت",
+          "labelKey": "cboard.food.meat",
+          "image": "/symbols/mulberry/meat.svg",
+          "id": "ir_f_meat",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "مرغ",
+          "labelKey": "cboard.food.chicken",
+          "image": "/symbols/mulberry/chicken.svg",
+          "id": "ir_f_chicken",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "آش و سوپ",
+          "labelKey": "cboard.food.soup",
           "image": "/symbols/mulberry/soup.svg",
-          "loadBoard": "SkEF6D2DaW",
-          "id": "rkCHGA9TQ5F-",
+          "id": "ir_f_soup",
           "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "labelKey": "symbol.foodVegetablesAndSalads.vegetables",
-          "image": "/symbols/mulberry/vegetables.svg",
-          "loadBoard": "r1ftpPhPa-",
-          "id": "Sk1IGA9679YW",
+          "label": "عدسی / خوراک لوبیا",
+          "labelKey": "cboard.food.lentil",
+          "image": "/symbols/mulberry/soup.svg",
+          "id": "ir_f_lentil",
           "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "labelKey": "symbol.foodFruit.fruit",
-          "image": "/symbols/mulberry/fruit.svg",
-          "loadBoard": "S1It6P2Pp-",
-          "id": "rJeLMR9TX5FZ",
-          "backgroundColor": "rgb(187, 222, 251)"
-        },
-        {
-          "labelKey": "symbol.foodMealsAndSnacks.pizza",
-          "image": "/symbols/mulberry/pizza_2.svg",
-          "id": "SyWIGAcam5tZ",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodBreadsAndBaking.bread",
+          "label": "نان سنتی",
+          "labelKey": "cboard.food.traditionalBread",
           "image": "/symbols/mulberry/bread.svg",
-          "id": "HyfLGCc6XqKZ",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "id": "ir_f_bread",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "labelKey": "symbol.foodEggs.boiledEgg",
-          "image": "/symbols/mulberry/boiled_egg.svg",
-          "id": "BkmIzC5aX9tZ",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodEggs.friedEgg",
+          "label": "تخم‌مرغ / املت",
+          "labelKey": "cboard.food.omelette",
           "image": "/symbols/mulberry/fried_egg.svg",
-          "id": "ryN8fR56mqFb",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "id": "ir_f_egg",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "labelKey": "symbol.foodBreadsAndBaking.croissant",
-          "image": "/symbols/mulberry/croissant.svg",
-          "id": "BkHLzR9pXctb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodBreadsAndBaking.cereal",
-          "image": "/symbols/mulberry/cereal.svg",
-          "id": "SyU8G0qT7qY-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodBreadsAndBaking.porridge",
-          "image": "/symbols/mulberry/porridge.svg",
-          "id": "ryDIfC5a79tb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodBreadsAndBaking.pancakes",
-          "image": "/symbols/mulberry/pancakes.svg",
-          "id": "BJdUzC56Qqtb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodPastasAndRice.pasta",
-          "image": "/symbols/mulberry/pasta.svg",
-          "id": "ryY8zA9a79YW",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodPoultry.poultry",
-          "image": "/symbols/mulberry/poultry.svg",
-          "id": "H1qIMA96Q5Y-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodMeat.beef",
-          "image": "/symbols/mulberry/beef.svg",
-          "id": "S1sIzRqp75Y-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.animalFishAndMarineMammals.fish",
-          "image": "/symbols/mulberry/fish.svg",
-          "id": "r1n8MCcpXcFW",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodMealsAndSnacks.spaghettiBolognaise",
-          "image": "/symbols/mulberry/spaghetti_bolognaise.svg",
-          "id": "HkTIzCcpmqK-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodMealsAndSnacks.hamburger",
-          "image": "/symbols/mulberry/hamburger.svg",
-          "id": "B1A8GRc6m5FZ",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodMealsAndSnacks.hotDog",
-          "image": "/symbols/mulberry/hot_dog.svg",
-          "id": "BJ1PGCcaXqF-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodBreadsAndBaking.pie",
-          "image": "/symbols/mulberry/pie.svg",
-          "id": "BklvGR5a7qF-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodKitchenItems.pepperMill",
-          "image": "/symbols/mulberry/pepper_mill.svg",
-          "id": "B1bPGRcaX9FW",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodKitchenItems.salt",
-          "image": "/symbols/mulberry/salt.svg",
-          "id": "H1fPMCc6XcYb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodIngredients.tomatoSauce",
-          "image": "/symbols/mulberry/tomato_sauce.svg",
-          "id": "SJXwGRqp75tb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodIngredients.vinegar",
-          "image": "/symbols/mulberry/vinegar.svg",
-          "id": "BJ4PzAcpX5tb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodMealsAndSnacks.sandwich",
-          "image": "/symbols/mulberry/sandwich.svg",
-          "id": "BySPfCcam9K-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodBreadsAndBaking.bagel",
-          "image": "/symbols/mulberry/bagel_2.svg",
-          "id": "SkIDMC5am9KZ",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodKitchenItems.toast",
-          "image": "/symbols/mulberry/toast.svg",
-          "id": "rkwPfC9pmcFb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodDairy.cheese",
+          "label": "پنیر و گردو",
+          "labelKey": "cboard.food.cheeseNuts",
           "image": "/symbols/mulberry/cheese.svg",
-          "id": "ryOvG05p75tW",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "id": "ir_f_cheese",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "labelKey": "symbol.foodPastasAndRice.noodles",
-          "image": "/symbols/mulberry/noodles.svg",
-          "id": "SkFvM0qT7cFb",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "سالاد",
+          "labelKey": "cboard.food.salad",
+          "image": "/symbols/mulberry/salad.svg",
+          "id": "ir_f_salad",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "labelKey": "symbol.foodVegetablesAndSalads.chips",
-          "image": "/symbols/mulberry/chips.svg",
-          "id": "rycvMAcpmqYW",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "ماست",
+          "labelKey": "cboard.food.yogurt",
+          "image": "/symbols/mulberry/yogurt.svg",
+          "id": "ir_f_yogurt",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "سبزیجات",
+          "labelKey": "cboard.symbol.vegetables",
+          "image": "/symbols/mulberry/vegetables.svg",
+          "id": "ir_f_veg",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "میوه",
+          "labelKey": "cboard.symbol.fruits",
+          "image": "/symbols/mulberry/fruit.svg",
+          "id": "ir_f_fruit",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "ماکارونی",
+          "labelKey": "symbol.foodPasta.pasta",
+          "image": "/symbols/mulberry/pasta.svg",
+          "id": "ir_f_pasta",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "ماهی",
+          "labelKey": "symbol.foodMeatAndFish.fish",
+          "image": "/symbols/mulberry/fish.svg",
+          "id": "ir_f_fish",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "ساندویچ",
+          "labelKey": "symbol.foodMeals.sandwich",
+          "image": "/symbols/mulberry/sandwich.svg",
+          "id": "ir_f_sand",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "نمک",
+          "labelKey": "cboard.symbol.salt",
+          "image": "/symbols/mulberry/salt.svg",
+          "id": "ir_f_salt",
+          "backgroundColor": "rgb(187, 222, 251)"
         }
       ]
     },
@@ -680,118 +627,102 @@
       "hidden": true,
       "tiles": [
         {
-          "labelKey": "cboard.symbol.imThirsty",
+          "label": "من تشنه‌ام",
+          "labelKey": "symbol.foodDescription.thirsty",
           "image": "/symbols/mulberry/thirsty.svg",
           "id": "ByPFGCcam5tW",
           "backgroundColor": "rgb(255, 241, 118)"
         },
         {
-          "labelKey": "cboard.symbol.iWant",
+          "label": "من می‌خواهم",
+          "labelKey": "symbol.communicationConversation.want",
           "image": "/symbols/mulberry/want_,_to.svg",
           "id": "rydFMAcaX5FZ",
           "backgroundColor": "rgb(255, 241, 118)"
         },
         {
-          "labelKey": "cboard.symbol.iDislike",
+          "label": "دوست ندارم",
+          "labelKey": "symbol.descriptiveState.bad",
           "image": "/symbols/mulberry/bad.svg",
           "id": "ryYYf0qp79YZ",
           "backgroundColor": "rgb(255, 241, 118)"
         },
         {
-          "labelKey": "symbol.drinkType.drink",
-          "image": "/symbols/mulberry/drink.svg",
-          "id": "ryctMA9amqtZ",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.drinkType.water",
+          "label": "آب خنک",
+          "labelKey": "cboard.drink.coldWater",
           "image": "/symbols/mulberry/water.svg",
-          "id": "SystfA56X5KZ",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "id": "ir_d_water",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "labelKey": "symbol.drinkType.orangeJuice",
-          "image": "/symbols/mulberry/orange_juice.svg",
-          "id": "S1htzCqaX9Fb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.drinkType.appleJuice",
-          "image": "/symbols/mulberry/apple_juice.svg",
-          "id": "SypYzA5aXctb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.drinkType.grapeJuice",
-          "image": "/symbols/mulberry/grape_juice.svg",
-          "id": "BJRtf05TmcF-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.drinkType.cranberryJuice",
-          "image": "/symbols/mulberry/cranberry_juice.svg",
-          "id": "B1JqMAqT7qtZ",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.drinkType.pineappleJuice",
-          "image": "/symbols/mulberry/pineapple_juice.svg",
-          "id": "SyxqMRcTQ9FZ",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.drinkType.lemonade",
-          "image": "/symbols/mulberry/lemonade.svg",
-          "id": "SyZ9GC9675Yb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.drinkType.milk",
-          "image": "/symbols/mulberry/milk.svg",
-          "id": "B1M5GC5amqF-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.drinkType.milkshake",
-          "image": "/symbols/mulberry/milkshake.svg",
-          "id": "r179GC9am9FW",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.drinkType.hotChocolate",
-          "image": "/symbols/mulberry/hot_chocolate.svg",
-          "id": "rJVcfA9aQcK-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.drinkType.tea",
-          "image": "/symbols/mulberry/tea.svg",
-          "id": "B1r9f056mctW",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.drinkType.coffee",
-          "image": "/symbols/mulberry/coffee.svg",
-          "id": "B1I9M05pQ9Yb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.drinkType.wine",
-          "image": "/symbols/mulberry/wine.svg",
-          "id": "ryD5GR5aXqFW",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.drinkType.beer",
-          "image": "/symbols/mulberry/beer.svg",
-          "id": "SJd5zAq67qK-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodKitchenItems.straw",
+          "label": "آب با نی",
+          "labelKey": "cboard.drink.strawWater",
           "image": "/symbols/mulberry/straw.svg",
-          "id": "H1F5z09Tm5tb",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "id": "ir_d_straw",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "چای داغ",
+          "labelKey": "cboard.drink.hotTea",
+          "image": "/symbols/mulberry/tea.svg",
+          "id": "ir_d_tea",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "قوری چای تازه",
+          "labelKey": "cboard.drink.freshTea",
+          "image": "/symbols/mulberry/teapot.svg",
+          "id": "ir_d_teapot",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "دوغ",
+          "labelKey": "cboard.drink.doogh",
+          "image": "/symbols/mulberry/drink.svg",
+          "id": "ir_d_doogh",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "شربت سنتی",
+          "labelKey": "cboard.drink.sharbat",
+          "image": "/symbols/mulberry/lemonade.svg",
+          "id": "ir_d_sharbat",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "آبمیوه طبیعی",
+          "labelKey": "cboard.drink.freshJuice",
+          "image": "/symbols/mulberry/orange_juice.svg",
+          "id": "ir_d_juice",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "آب سیب",
+          "labelKey": "cboard.drink.appleJuice",
+          "image": "/symbols/mulberry/apple_juice.svg",
+          "id": "ir_d_apple",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "شیر گرم",
+          "labelKey": "cboard.drink.warmMilk",
+          "image": "/symbols/mulberry/milk.svg",
+          "id": "ir_d_milk",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "دمنوش گیاهی",
+          "labelKey": "cboard.drink.herbalTea",
+          "image": "/symbols/mulberry/hot_drink.svg",
+          "id": "ir_d_herbal",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "قهوه",
+          "labelKey": "cboard.symbol.coffee",
+          "image": "/symbols/mulberry/coffee.svg",
+          "id": "ir_d_coffee",
+          "backgroundColor": "rgb(187, 222, 251)"
         }
       ],
       "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763506_9b1b336c1684_drinks.png"
@@ -864,94 +795,74 @@
       "hidden": true,
       "tiles": [
         {
-          "labelKey": "cboard.symbol.iWant",
+          "label": "من می‌خواهم",
+          "labelKey": "symbol.communicationConversation.want",
           "image": "/symbols/mulberry/want_,_to.svg",
           "id": "ryGoMC96mcYW",
           "backgroundColor": "rgb(255, 241, 118)"
         },
         {
-          "labelKey": "symbol.foodSweetsAndDesserts.iceCream",
-          "image": "/symbols/mulberry/ice_cream.svg",
-          "id": "HkXizC5T79Yb",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "خرما",
+          "labelKey": "cboard.snack.dates",
+          "image": "/symbols/mulberry/dates.svg",
+          "id": "ir_s_dates",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "labelKey": "symbol.foodSweetsAndDesserts.chocolate",
-          "image": "/symbols/mulberry/chocolate.svg",
-          "id": "rJEif0cTm5KZ",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodMealsAndSnacks.crisps",
-          "image": "/symbols/mulberry/crisps.svg",
-          "id": "BkSjfR5a7qt-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodSweetsAndDesserts.marshmallows",
-          "image": "/symbols/mulberry/marshmallows.svg",
-          "id": "B1IjfA9TQctW",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodBreadsAndBaking.biscuits",
-          "image": "/symbols/mulberry/biscuits.svg",
-          "id": "HyPjzRqTXqYZ",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodSweetsAndDesserts.jellyBeans",
-          "image": "/symbols/mulberry/jelly_beans.svg",
-          "id": "By_jGRcaQcY-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodNuts.candyCane",
-          "image": "/symbols/mulberry/candy_cane.svg",
-          "id": "rkFoG0c6XqFb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodNuts.nuts",
+          "label": "آجیل / پسته و گردو",
+          "labelKey": "cboard.snack.nuts",
           "image": "/symbols/mulberry/nuts.svg",
-          "id": "r19oGC9Tm5YZ",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "id": "ir_s_nuts",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "labelKey": "symbol.foodBreadsAndBaking.cakeSlice",
+          "label": "میوه",
+          "labelKey": "cboard.symbol.fruits",
+          "image": "/symbols/mulberry/fruit.svg",
+          "id": "ir_s_fruit",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "بیسکویت",
+          "labelKey": "cboard.symbol.biscuits",
+          "image": "/symbols/mulberry/biscuits.svg",
+          "id": "ir_s_bisc",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "شیرینی / حلوا",
+          "labelKey": "cboard.snack.pastry",
+          "image": "/symbols/mulberry/sweet.svg",
+          "id": "ir_s_sweet",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "کیک",
+          "labelKey": "symbol.foodBreadsAndBaking.cake",
           "image": "/symbols/mulberry/cake_slice_2.svg",
-          "id": "HyssM0qTm5FW",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "id": "ir_s_cake",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "labelKey": "symbol.foodBreadsAndBaking.chocolateChipBiscuit",
-          "image": "/symbols/mulberry/chocolate_chip_biscuit.svg",
-          "id": "B1noG05aX5tb",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "بستنی سنتی",
+          "labelKey": "cboard.snack.traditionalIceCream",
+          "image": "/symbols/mulberry/ice_cream.svg",
+          "id": "ir_s_icecream",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "labelKey": "symbol.foodDairy.yogurt",
-          "image": "/symbols/mulberry/yogurt.svg",
-          "id": "Hk6jGRcaQcY-",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "شکلات",
+          "labelKey": "cboard.symbol.chocolate",
+          "image": "/symbols/mulberry/chocolate.svg",
+          "id": "ir_s_choco",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "labelKey": "symbol.foodSweetsAndDesserts.iceLolly",
-          "image": "/symbols/mulberry/ice_lolly.svg",
-          "id": "BJCof0qpm9tb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodBreadsAndBaking.pretzel",
-          "image": "/symbols/mulberry/pretzel.svg",
-          "id": "HkJhG0c6Q5t-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.foodNuts.peanut",
-          "image": "/symbols/mulberry/peanut.svg",
-          "id": "H1enMCqpQ5F-",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "پنیر",
+          "labelKey": "cboard.symbol.cheese",
+          "image": "/symbols/mulberry/cheese.svg",
+          "id": "ir_s_cheese",
+          "backgroundColor": "rgb(187, 222, 251)"
         }
       ],
       "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763513_9b1b336c1684_snacks.png"
@@ -2162,124 +2073,102 @@
       "hidden": true,
       "tiles": [
         {
-          "labelKey": "cboard.symbol.iWant",
+          "label": "من می‌خواهم",
+          "labelKey": "symbol.communicationConversation.want",
           "image": "/symbols/mulberry/want_,_to.svg",
           "id": "HJld7Acam5YZ",
           "backgroundColor": "rgb(255, 241, 118)"
         },
         {
-          "labelKey": "symbol.sport.toCycle",
-          "image": "/symbols/mulberry/cycle_,_to.svg",
-          "id": "SyZd7056XctW",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "استراحت / خوابیدن",
+          "labelKey": "cboard.activity.rest",
+          "image": "/symbols/mulberry/sleep_male_,_to.svg",
+          "id": "ir_a_rest",
+          "backgroundColor": "rgb(200, 230, 201)"
         },
         {
-          "labelKey": "cboard.symbol.toPlayBasketball",
-          "image": "/symbols/mulberry/basketball.svg",
-          "id": "r1fOXCcTmqY-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "cboard.symbol.toGoBowling",
-          "image": "/symbols/mulberry/bowler_1.svg",
-          "id": "rk7OXA96mcYZ",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "cboard.symbol.toPlayComputerGames",
-          "image": "/symbols/mulberry/computer_game.svg",
-          "id": "SkEumCqa7qt-",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "cboard.symbol.toWatchTv",
+          "label": "تماشای تلویزیون",
+          "labelKey": "cboard.activity.tv",
           "image": "/symbols/mulberry/flatscreen_tv.svg",
-          "id": "r1ruQR967cKZ",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "id": "ir_a_tv",
+          "backgroundColor": "rgb(200, 230, 201)"
         },
         {
-          "labelKey": "cboard.symbol.toSolveJigsawPuzzle",
-          "image": "/symbols/mulberry/jigsaw_puzzle.svg",
-          "id": "HyLOXRcaX9Kb",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "نماز و دعا",
+          "labelKey": "cboard.activity.prayer",
+          "image": "/symbols/mulberry/prayer.svg",
+          "id": "ir_a_prayer",
+          "backgroundColor": "rgb(255, 249, 196)"
         },
         {
-          "labelKey": "cboard.symbol.toPlaySoccer",
-          "image": "/symbols/mulberry/kick_ball_1_,_to.svg",
-          "id": "SJwOQAcpQcKZ",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "تماس تلفنی یا تصویری با خانواده",
+          "labelKey": "cboard.activity.familyCall",
+          "image": "/symbols/mulberry/phone_picture_video.svg",
+          "id": "ir_a_call",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "labelKey": "cboard.symbol.toPlayBingo",
-          "image": "/symbols/mulberry/bingo.svg",
-          "id": "Sy__7C5TXcFZ",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "گوش دادن به رادیو و قرآن",
+          "labelKey": "cboard.activity.musicRadio",
+          "image": "/symbols/mulberry/headphones.svg",
+          "id": "ir_a_radio",
+          "backgroundColor": "rgb(200, 230, 201)"
         },
         {
-          "labelKey": "symbol.healthcareGroomingActivities.toBathe",
-          "image": "/symbols/mulberry/bathe_,_to.svg",
-          "id": "rJK_QRq6m5K-",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "رفتن به هوای آزاد / حیاط",
+          "labelKey": "cboard.activity.freshAir",
+          "image": "/symbols/mulberry/back_garden.svg",
+          "id": "ir_a_garden",
+          "backgroundColor": "rgb(200, 230, 201)"
         },
         {
-          "labelKey": "symbol.toolsActions.toWork",
-          "image": "/symbols/mulberry/work_,_to.svg",
-          "id": "Sk9d70cTXqYZ",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "راه رفتن با واکر / تمرین راه رفتن",
+          "labelKey": "cboard.activity.walker",
+          "image": "/symbols/mulberry/walking_frame.svg",
+          "id": "ir_a_walker",
+          "backgroundColor": "rgb(200, 230, 201)"
         },
         {
-          "labelKey": "symbol.foodKitchenActions.toCook",
-          "image": "/symbols/mulberry/cook_,_to.svg",
-          "id": "S1i_709a79YW",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "نشستن روی ویلچر",
+          "labelKey": "cboard.activity.wheelchair",
+          "image": "/symbols/mulberry/wheelchair.svg",
+          "id": "ir_a_wheelchair",
+          "backgroundColor": "rgb(200, 230, 201)"
         },
         {
-          "labelKey": "symbol.sport.toExercise",
+          "label": "نشستن روی مبل",
+          "labelKey": "cboard.activity.armchair",
+          "image": "/symbols/mulberry/arm_chair.svg",
+          "id": "ir_a_sofa",
+          "backgroundColor": "rgb(200, 230, 201)"
+        },
+        {
+          "label": "فیزیوتراپی و ماساژ",
+          "labelKey": "cboard.activity.physio",
           "image": "/symbols/mulberry/exercise_,_to.svg",
-          "id": "Byhu7R9Tm5FW",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "id": "ir_a_physio",
+          "backgroundColor": "rgb(255, 205, 210)"
         },
         {
-          "labelKey": "symbol.sport.toRun",
-          "image": "/symbols/mulberry/run_,_to.svg",
-          "id": "r1aOXRq67qtb",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "خواندن کتاب و شعر",
+          "labelKey": "cboard.activity.reading",
+          "image": "/symbols/mulberry/read_book_,_to.svg",
+          "id": "ir_a_read",
+          "backgroundColor": "rgb(200, 230, 201)"
         },
         {
-          "labelKey": "symbol.leisureGames.toArmwrestle",
-          "image": "/symbols/mulberry/armwrestle_,_to.svg",
-          "id": "ryA_X0qpX9YZ",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "دوش گرفتن / حمام",
+          "labelKey": "cboard.activity.bath",
+          "image": "/symbols/mulberry/bathe_,_to.svg",
+          "id": "ir_a_bath",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "labelKey": "symbol.celebrationEvent.toCelebrate",
-          "image": "/symbols/mulberry/celebrate_3_,_to.svg",
-          "id": "B1yF709T79Fb",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.sport.toSwim",
-          "image": "/symbols/mulberry/swim_,_to.svg",
-          "id": "HyeK7Aca7cKZ",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "symbol.sport.toFish",
-          "image": "/symbols/mulberry/fish_,_to.svg",
-          "id": "rybK7A567ctW",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "cboard.symbol.toPlayDarts",
-          "image": "/symbols/mulberry/darts.svg",
-          "id": "HkGY7AqpmcKZ",
-          "backgroundColor": "rgb(255, 241, 118)"
-        },
-        {
-          "labelKey": "cboard.symbol.toPlayCards",
-          "image": "/symbols/mulberry/playing_cards.svg",
-          "id": "B1XtmAqTX9t-",
-          "backgroundColor": "rgb(255, 241, 118)"
+          "label": "صحبت با خانواده و همراهم",
+          "labelKey": "cboard.activity.familyTalk",
+          "image": "/symbols/mulberry/family.svg",
+          "id": "ir_a_talk",
+          "backgroundColor": "rgb(255, 224, 178)"
         }
       ],
       "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763522_9b1b336c1684_activities.png"
@@ -5480,6 +5369,281 @@
         }
       ],
       "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763764_9b1b336c1684_birds.png"
+    },
+    {
+      "id": "icu_stroke_care",
+      "name": "مراقبت‌های ویژه و بستری (ICU و سکته مغزی)",
+      "nameKey": "cboard.board.icuCare",
+      "author": "سی‌بورد فارسی",
+      "email": "support@cboard.io",
+      "isPublic": false,
+      "hidden": true,
+      "tiles": [
+        {
+          "label": "کمک فوری",
+          "labelKey": "cboard.icu.help",
+          "image": "/symbols/mulberry/help_,_to.svg",
+          "id": "icu_t_help",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
+          "label": "کجای بدنم درد می‌کند؟",
+          "labelKey": "cboard.icu.painDetails",
+          "image": "/symbols/arasaac/i_am_pain.png",
+          "loadBoard": "icu_pain_details",
+          "id": "icu_t_pain",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
+          "label": "تنگی نفس",
+          "labelKey": "cboard.icu.breathe",
+          "image": "/symbols/mulberry/airways.svg",
+          "id": "icu_t_breathe",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
+          "label": "ساکشن",
+          "labelKey": "cboard.icu.suction",
+          "image": "/symbols/mulberry/trachea.svg",
+          "id": "icu_t_suction",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
+          "label": "تهوع",
+          "labelKey": "cboard.icu.nausea",
+          "image": "/symbols/mulberry/vomit_,_to.svg",
+          "id": "icu_t_nausea",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
+          "label": "پزشک",
+          "labelKey": "cboard.icu.doctor",
+          "image": "/symbols/mulberry/doctor_1a.svg",
+          "id": "icu_t_doctor",
+          "backgroundColor": "rgb(255, 224, 178)"
+        },
+        {
+          "label": "پرستار",
+          "labelKey": "cboard.icu.nurse",
+          "image": "/symbols/mulberry/nurse_1a.svg",
+          "id": "icu_t_nurse",
+          "backgroundColor": "rgb(255, 224, 178)"
+        },
+        {
+          "label": "همراهم",
+          "labelKey": "cboard.icu.family",
+          "image": "/symbols/mulberry/family.svg",
+          "id": "icu_t_family",
+          "backgroundColor": "rgb(255, 224, 178)"
+        },
+        {
+          "label": "آب می‌خواهم",
+          "labelKey": "cboard.icu.water",
+          "image": "/symbols/mulberry/water.svg",
+          "id": "icu_t_water",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "سرویس بهداشتی / لگن",
+          "labelKey": "cboard.icu.toilet",
+          "image": "/symbols/mulberry/need_toilet.svg",
+          "id": "icu_t_toilet",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "دارو / مسکن",
+          "labelKey": "cboard.icu.medicine",
+          "image": "/symbols/mulberry/medicine.svg",
+          "id": "icu_t_medicine",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "دهانم خشک شده",
+          "labelKey": "cboard.icu.dryMouth",
+          "image": "/symbols/mulberry/mouth.svg",
+          "id": "icu_t_dry_mouth",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "label": "سردم است",
+          "labelKey": "cboard.icu.cold",
+          "image": "/symbols/mulberry/sneeze_cold.svg",
+          "id": "icu_t_cold",
+          "backgroundColor": "rgb(225, 245, 254)"
+        },
+        {
+          "label": "گرمم است",
+          "labelKey": "cboard.icu.hot",
+          "image": "/symbols/mulberry/hot_person.svg",
+          "id": "icu_t_hot",
+          "backgroundColor": "rgb(255, 249, 196)"
+        },
+        {
+          "label": "تغییر وضعیت بدن",
+          "labelKey": "cboard.icu.reposition",
+          "image": "/symbols/mulberry/sleep_on_side_,_to.svg",
+          "id": "icu_t_reposition",
+          "backgroundColor": "rgb(200, 230, 201)"
+        },
+        {
+          "label": "سر تخت را بالا بیاورید",
+          "labelKey": "cboard.icu.raiseHead",
+          "image": "/symbols/mulberry/raise_head_,_to.svg",
+          "id": "icu_t_raise_head",
+          "backgroundColor": "rgb(200, 230, 201)"
+        },
+        {
+          "label": "تخت را صاف کنید",
+          "labelKey": "cboard.icu.layFlat",
+          "image": "/symbols/mulberry/lie_on_back_,_to.svg",
+          "id": "icu_t_lay_flat",
+          "backgroundColor": "rgb(200, 230, 201)"
+        },
+        {
+          "label": "بالش را تنظیم کنید",
+          "labelKey": "cboard.icu.pillow",
+          "image": "/symbols/mulberry/single_bed.svg",
+          "id": "icu_t_pillow",
+          "backgroundColor": "rgb(200, 230, 201)"
+        },
+        {
+          "label": "پتو بیندازید",
+          "labelKey": "cboard.icu.blanket",
+          "image": "/symbols/mulberry/blanket.svg",
+          "id": "icu_t_blanket",
+          "backgroundColor": "rgb(200, 230, 201)"
+        },
+        {
+          "label": "چراغ را خاموش کنید",
+          "labelKey": "cboard.icu.lightsOff",
+          "image": "/symbols/mulberry/turn_off_light_switch_,_to.svg",
+          "id": "icu_t_lights_off",
+          "backgroundColor": "rgb(225, 190, 231)"
+        },
+        {
+          "label": "سکوت / آرامش",
+          "labelKey": "cboard.icu.quiet",
+          "image": "/symbols/mulberry/quiet.svg",
+          "id": "icu_t_quiet",
+          "backgroundColor": "rgb(225, 190, 231)"
+        },
+        {
+          "label": "عینک من",
+          "labelKey": "cboard.icu.glasses",
+          "image": "/symbols/mulberry/glasses.svg",
+          "id": "icu_t_glasses",
+          "backgroundColor": "rgb(225, 190, 231)"
+        },
+        {
+          "label": "بله",
+          "labelKey": "cboard.symbol.yes",
+          "image": "/symbols/mulberry/correct.svg",
+          "id": "icu_t_yes",
+          "backgroundColor": "rgb(255, 245, 157)"
+        },
+        {
+          "label": "خیر",
+          "labelKey": "symbol.descriptiveState.no",
+          "image": "/symbols/mulberry/no.svg",
+          "id": "icu_t_no",
+          "backgroundColor": "rgb(255, 245, 157)"
+        },
+        {
+          "label": "خیلی ممنون",
+          "labelKey": "cboard.symbol.thankYou",
+          "image": "/symbols/mulberry/good.svg",
+          "id": "icu_t_thanks",
+          "backgroundColor": "rgb(255, 245, 157)"
+        },
+        {
+          "label": "نمی‌توانم صحبت کنم",
+          "labelKey": "cboard.symbol.iCantSpeak",
+          "image": "/symbols/mulberry/non_speaking.svg",
+          "id": "icu_t_cant_speak",
+          "backgroundColor": "rgb(255, 245, 157)"
+        }
+      ]
+    },
+    {
+      "id": "icu_pain_details",
+      "name": "تعیین دقیق محل درد",
+      "nameKey": "cboard.board.painDetails",
+      "author": "سی‌بورد فارسی",
+      "email": "support@cboard.io",
+      "isPublic": false,
+      "hidden": true,
+      "tiles": [
+        {
+          "label": "سردرد شدید",
+          "labelKey": "cboard.icu.headache",
+          "image": "/symbols/mulberry/headache.svg",
+          "id": "pain_t_headache",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
+          "label": "قفسه سینه",
+          "labelKey": "cboard.icu.chestPain",
+          "image": "/symbols/mulberry/male_chest.svg",
+          "id": "pain_t_chest",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
+          "label": "دل‌درد",
+          "labelKey": "cboard.icu.stomachPain",
+          "image": "/symbols/mulberry/stomach_ache.svg",
+          "id": "pain_t_stomach",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
+          "label": "کمردرد",
+          "labelKey": "cboard.icu.backPain",
+          "image": "/symbols/mulberry/back_ache.svg",
+          "id": "pain_t_back",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
+          "label": "گلودرد",
+          "labelKey": "cboard.icu.throatPain",
+          "image": "/symbols/mulberry/throat.svg",
+          "id": "pain_t_throat",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
+          "label": "دستم درد می‌کند",
+          "labelKey": "cboard.icu.armPain",
+          "image": "/symbols/mulberry/arm.svg",
+          "id": "pain_t_arm",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
+          "label": "پایم درد می‌کند",
+          "labelKey": "cboard.icu.legPain",
+          "image": "/symbols/mulberry/leg.svg",
+          "id": "pain_t_leg",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
+          "label": "دندان‌درد",
+          "labelKey": "cboard.icu.toothPain",
+          "image": "/symbols/mulberry/toothache.svg",
+          "id": "pain_t_tooth",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
+          "label": "تمام بدنم درد می‌کند",
+          "labelKey": "cboard.icu.bodyPain",
+          "image": "/symbols/arasaac/i_am_pain.png",
+          "id": "pain_t_body",
+          "backgroundColor": "rgb(255, 205, 210)"
+        },
+        {
+          "label": "دردم آرام‌تر شد",
+          "labelKey": "cboard.icu.painRelieved",
+          "image": "/symbols/mulberry/good.svg",
+          "id": "pain_t_better",
+          "backgroundColor": "rgb(200, 230, 201)"
+        }
+      ]
     }
   ]
 }
