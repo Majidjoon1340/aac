@@ -1,7 +1,7 @@
-import { createBrowserHistory, createHashHistory } from 'history';
-import { isPackagedApp } from './cordova-util';
+import { createHashHistory } from 'history';
 
-// Packaged apps (Electron/Android file://, iOS app://localhost) need hash
-// history; HTML5 path history doesn't resolve there. Web uses browser history.
-const history = isPackagedApp() ? createHashHistory() : createBrowserHistory();
+// Use hash history for full compatibility across GitHub Pages,
+// static local servers, PWA offline, and packaged mobile apps.
+// This completely avoids 404 errors on subpaths (like /aac/).
+const history = createHashHistory();
 export default history;

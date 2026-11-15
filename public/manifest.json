@@ -1,7 +1,7 @@
 {
-  "short_name": "Cboard",
-  "name": "Cboard - AAC Communication Board",
-  "description": "Cboard is an augmentative and alternative communication (AAC) application, allowing users with speech and language impairments (Autism, Cerebral Palsy) to communicate with symbols and text-to-speech.",
+  "short_name": "سی‌بورد",
+  "name": "سی‌بورد فارسی - ارتباط نمادین گفتاری",
+  "description": "سامانه ارتباط کمکی و جایگزین (AAC) به زبان فارسی برای بیماران سکته مغزی، فلج مغزی و اوتیسم",
   "icons": [
     {
       "src": "https://app.cboard.io/images/pwa/windows10/Square71x71Logo.scale-400.png",
@@ -416,7 +416,7 @@
       "sizes": "16x16"
     }
   ],
-  "start_url": "https://app.cboard.io/",
+  "start_url": "./",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
