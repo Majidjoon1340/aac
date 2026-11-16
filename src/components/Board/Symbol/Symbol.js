@@ -35,7 +35,15 @@ const propTypes = {
 };
 
 function formatSrc(src) {
-  return isPackagedApp() && src?.startsWith('/') ? `.${src}` : src;
+  if (!src) return '';
+  if (isPackagedApp() && src.startsWith('/')) {
+    return `.${src}`;
+  }
+  if (src.startsWith('/')) {
+    const publicUrl = process.env.PUBLIC_URL || '';
+    return `${publicUrl}${src}`;
+  }
+  return src;
 }
 
 const isRemote = (src) => /^https?:\/\//.test(src ?? '');

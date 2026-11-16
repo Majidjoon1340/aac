@@ -52,21 +52,19 @@ const renderApp = () => {
   ReactDOM.render(
     <Provider store={store}>
       <PersistGate persistor={persistor}>
-        <PayPalScriptProvider options={paypalOptions}>
-          <SpeechProvider>
-            <LanguageProvider>
-              <ThemeProvider>
-                <SubscriptionProvider>
-                  <Router history={history}>
-                    <DndProvider backend={TouchBackend} options={dndOptions}>
-                      <Route path="/" component={App} />
-                    </DndProvider>
-                  </Router>
-                </SubscriptionProvider>
-              </ThemeProvider>
-            </LanguageProvider>
-          </SpeechProvider>
-        </PayPalScriptProvider>
+        <SpeechProvider>
+          <LanguageProvider>
+            <ThemeProvider>
+              <SubscriptionProvider>
+                <Router history={history}>
+                  <DndProvider backend={TouchBackend} options={dndOptions}>
+                    <Route path="/" component={App} />
+                  </DndProvider>
+                </Router>
+              </SubscriptionProvider>
+            </ThemeProvider>
+          </LanguageProvider>
+        </SpeechProvider>
       </PersistGate>
     </Provider>,
     document.getElementById('root')

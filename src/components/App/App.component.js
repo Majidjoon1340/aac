@@ -79,13 +79,7 @@ export class App extends Component {
               <Redirect to={'/settings/language'} />
             </Route>
           )}
-          <Route
-            exact
-            path="/"
-            component={
-              isFirstVisit && !isLogged ? WelcomeScreen : BoardContainer
-            }
-          />
+          <Route exact path="/" component={BoardContainer} />
           <Route component={NotFound} />
         </Switch>
         <PremiumRequiredModal />
