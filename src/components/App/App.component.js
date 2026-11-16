@@ -9,6 +9,7 @@ import ChangePassword from '../Account/ChangePassword';
 import OAuthLogin from '../Account/OAuthLogin';
 import AuthScreen, { RedirectIfLogged } from '../AuthScreen';
 import BoardContainer from '../Board';
+import PersianAAC from '../PersianAAC/PersianAAC';
 import PremiumRequiredModal from '../PremiumFeature/PremiumRequiredModal';
 import OfflineNotificationModal from '../OfflineNotification';
 import Notifications from '../Notifications';
@@ -73,14 +74,10 @@ export class App extends Component {
           <Route path="/activate/:url" component={Activate} />
           <Route path="/reset/:userid/:url" component={ChangePassword} />
           <Route path="/login/:type/callback" component={OAuthLogin} />
-          <Route path="/board/:id" component={BoardContainer} />
-          {isDownloadingLang && (
-            <Route exact path={'/'}>
-              <Redirect to={'/settings/language'} />
-            </Route>
-          )}
-          <Route exact path="/" component={BoardContainer} />
-          <Route component={NotFound} />
+          <Route path="/classic-cboard" component={BoardContainer} />
+          <Route path="/board/:id" component={PersianAAC} />
+          <Route exact path="/" component={PersianAAC} />
+          <Route component={PersianAAC} />
         </Switch>
         <PremiumRequiredModal />
         <LoginRequiredModal />
