@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/aac/static/css/main.f9ccd87c.css",
+    "main.js": "/aac/static/js/main.b0784b51.js",
+    "index.html": "/aac/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.f9ccd87c.css",
+    "static/js/main.b0784b51.js"
+  ]
+}
